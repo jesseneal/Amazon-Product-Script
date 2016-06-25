@@ -19,7 +19,7 @@ AMAZON = AmazonAPI(AMAZON_ACCESS_KEY, AMAZON_SECRET_KEY, AMAZON_ASSOC_TAG)
 # Running the function with asin as an argument 
 def product(asin):
     item = AMAZON.lookup(ItemId=asin)
-    price = item.price_and_currency[0]
+    price = item.price_and_currency[0] # Only return price not currency
     title = item.title
 
     return (price, title)
