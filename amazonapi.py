@@ -3,7 +3,7 @@
 from amazon.api import AmazonAPI
 import smtplib
 
-# Amazon crentials for API and Afflite assoc tag
+# Amazon credentials for API and Afflite assoc tag
 AMAZON_ACCESS_KEY = "Enter Amazon Access Key Here"
 AMAZON_SECRET_KEY = "Enter Amazon Secret Key Here"
 AMAZON_ASSOC_TAG = "Enter Amazon Assocaite Tag here"
