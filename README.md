@@ -7,22 +7,22 @@ to lookup a product by the ASIN tag and return the title and price.
 Usage
 -----
 Modify Amazon credentials:
-	# Amazon credentials for API and Afflite assoc tag
-	AMAZON_ACCESS_KEY = "Enter Amazon Access Key Here"
-	AMAZON_SECRET_KEY = "Enter Amazon Secret Key Here"
-	AMAZON_ASSOC_TAG = "Enter Amazon Assocaite Tag here"
+	 # Amazon credentials for API and Afflite assoc tag
+	 AMAZON_ACCESS_KEY = "Enter Amazon Access Key Here"
+	 AMAZON_SECRET_KEY = "Enter Amazon Secret Key Here"
+	 AMAZON_ASSOC_TAG = "Enter Amazon Assocaite Tag here"
 
-	# Credentials for Gmail acct and destination
-	USERNAME = "gmail address for example jesseneal@gmail.com"
-	PASSWORD = "gmail app password goes here" # example: ilovekitens
-	SMS = "enternumberhere.att.net" # exaample 5555555555.att.net
+	 # Credentials for Gmail acct and destination
+	 USERNAME = "gmail address for example jesseneal@gmail.com"
+	 PASSWORD = "gmail app password goes here" # example: ilovekitens
+	 SMS = "enternumberhere.att.net" # exaample 5555555555.att.net
 
 
 Getting the product info:
-    Running the function with asin as an argument 
-    def product(asin):
-        item = AMAZON.lookup(ItemId=asin)
-        price = item.price_and_currency[0]
-        title = item.title
+     #Running the function with asin as an argument 
+     def product(asin):
+         item = AMAZON.lookup(ItemId=asin)
+		 price = item.price_and_currency[0]
+		 title = item.title
 
-    return (price, title)
+	 return (price, title)
