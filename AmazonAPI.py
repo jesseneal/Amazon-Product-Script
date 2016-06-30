@@ -10,16 +10,16 @@ AMAZON_ASSOC_TAG = "Enter Amazon Assocaite Tag here"
 
 # Credentials for Gmail acct and destination
 USERNAME = "gmail address for example jesseneal@gmail.com"
-PASSWORD = "gmail app password goes here"
-SMS = ".att.net"
+PASSWORD = "gmail app password goes here" # example: ilovekitens
+SMS = "enternumberhere.att.net" # exaample 5555555555.att.net
 
 # Assigning Amazon creds to the API
 AMAZON = AmazonAPI(AMAZON_ACCESS_KEY, AMAZON_SECRET_KEY, AMAZON_ASSOC_TAG)
 
-# Running the fucntion with asin as a param 
+# Running the function with asin as an argument 
 def product(asin):
     item = AMAZON.lookup(ItemId=asin)
-    price = item.price_and_currency[0]
+    price = item.price_and_currency[0] # Only return price not currency
     title = item.title
 
     return (price, title)
