@@ -8,9 +8,9 @@ Dependencies Needed
 --------------
 Before you get started, make sure you have:
 
-* Installed [Bottlenose](https://github.com/lionheart/bottlenose) (`pip install bottlenose`)
-* Installed lxml (`pip install lxml`)
-* Installed [dateutil](http://labix.org/python-dateutil) (`pip install python-dateutil`)
+* Install [Bottlenose](https://github.com/lionheart/bottlenose) (`pip install bottlenose`)
+* Install lxml (`pip install lxml`)
+* Install [dateutil](http://labix.org/python-dateutil) (`pip install python-dateutil`)
 * An Amazon Product Advertising account
 * An AWS account
 
