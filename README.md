@@ -4,18 +4,19 @@ Amazon-Product-Script
 This simple script is using the [Amazon Simple Product API] (https://github.com/yoavaviram/python-amazon-simple-product-api)
 to lookup a product by the ASIN tag and return the title and price.
 
-Dependencies
------------
-Need to install before running:
+Dependencies Needed
+--------------
+Before you get started, make sure you have:
 
-- Bottlenose (pip install bottlenose)
-- lxml ( pip install lxml)
-- dateutil (pip install python-dateutil)
+* Installed [Bottlenose](https://github.com/lionheart/bottlenose) (`pip install bottlenose`)
+* Installed lxml (`pip install lxml`)
+* Installed [dateutil](http://labix.org/python-dateutil) (`pip install python-dateutil`)
+* An Amazon Product Advertising account
+* An AWS account
 
-- An Amazon Product account
-- An AWS Account
-
-- pip install python-amazon-simple-product-api
+Then Install
+-------------
+     pip install python-amazon-simple-product-api
 
 Usage
 -----
