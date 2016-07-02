@@ -37,12 +37,14 @@ SMS = "enternumberhere.att.net" # exaample 5555555555.att.net
 
 Passing product into the function:
 ```     
-#Running the function with asin as an argument 
 def product(asin):
-	item = AMAZON.lookup(ItemId=asin)
-	price = item.price_and_currency[0]
-	title = item.title
+    item = AMAZON.lookup(ItemId=asin)
+    price = item.price_and_currency[0] # Only return price not currency
+    title = item.title
 
-return (price, title)
+    return (price, title)
+
+# Calling the product function and passing in the amazon ASIN product key
+product_price, product_title = product('B01F2R9WV8')
 ```
 
