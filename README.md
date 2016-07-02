@@ -2,7 +2,7 @@
 Amazon-Product-Script
 =====================
 This simple script is using the [Amazon Simple Product API] (https://github.com/yoavaviram/python-amazon-simple-product-api)
-to lookup a product by the ASIN tag and return the title and price.
+to lookup a product by the ASIN tag which returns the title and price and sends an SMS to a mobile number.
 
 Dependencies Needed
 --------------
