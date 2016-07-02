@@ -11,11 +11,11 @@ Need to install before running:
 * Bottlenose (pip install bottlenose)
 * lxml ( pip install lxml)
 * dateutil (pip install python-dateutil)
+
 * An Amazon Product account
 * An AWS Account
 
 * pip install python-amazon-simple-product-api
-
 
 Usage
 -----
