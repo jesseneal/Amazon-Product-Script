@@ -6,17 +6,7 @@ to lookup a product by the ASIN tag which returns the title and price and sends 
 
 Dependencies Needed
 --------------
-Before you get started, make sure you have:
-
-* Install [Bottlenose](https://github.com/lionheart/bottlenose) (`pip install bottlenose`)
-* Install lxml (`pip install lxml`)
-* Install [dateutil](http://labix.org/python-dateutil) (`pip install python-dateutil`)
-* An Amazon Product Advertising account
-* An AWS account
-
-Then Install
--------------
-     pip install python-amazon-simple-product-api
+- See [Amazon Simple Product API] (https://github.com/yoavaviram/python-amazon-simple-product-api)
 
 Usage
 -----
