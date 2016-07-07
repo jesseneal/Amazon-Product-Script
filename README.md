@@ -6,7 +6,7 @@ to lookup a product by the ASIN tag which returns the title and price and sends 
 
 Dependencies Needed
 --------------
-- See [Amazon Simple Product API] (https://github.com/yoavaviram/python-amazon-simple-product-api)
+- See [Amazon Simple Product API] (https://github.com/yoavaviram/python-amazon-simple-product-api#dependencies)
 
 Usage
 -----
