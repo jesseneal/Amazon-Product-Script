@@ -1,12 +1,12 @@
 [![Build Status](https://travis-ci.org/jesseneal/Amazon-Product-Script.svg?branch=master)](https://travis-ci.org/jesseneal/Amazon-Product-Script)
 Amazon-Product-Script
 =====================
-This simple script is using the [Amazon Simple Product API] (https://github.com/yoavaviram/python-amazon-simple-product-api)
+This simple script is using the [Amazon Simple Product API](https://github.com/yoavaviram/python-amazon-simple-product-api)
 to lookup a product by the ASIN tag which returns the title and price and sends a SMS to a mobile number.
 
 Dependencies Needed
 --------------
-- See [Amazon Simple Product API] (https://github.com/yoavaviram/python-amazon-simple-product-api#dependencies)
+See [Amazon Simple Product API](https://github.com/yoavaviram/python-amazon-simple-product-api#dependencies)
 
 Usage
 -----
