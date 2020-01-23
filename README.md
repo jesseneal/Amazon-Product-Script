@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/jesseneal/Amazon-Product-Script.svg?branch=master)](https://travis-ci.org/jesseneal/Amazon-Product-Script)
 Amazon-Product-Script
 =====================
 This simple script is using the [Amazon Simple Product API](https://github.com/yoavaviram/python-amazon-simple-product-api)
