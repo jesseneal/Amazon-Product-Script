@@ -5,6 +5,12 @@ to lookup a product by the ASIN tag which returns the title and price and sends 
 
 Usage
 -----
+
+Install dependancies
+```
+pip3 install -r requirements.txt
+```
+
 Modify Amazon credentials:
 ```	 
 # Amazon credentials for API and Afflite assoc tag
