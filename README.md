@@ -21,7 +21,7 @@ AMAZON_ASSOC_TAG = "Enter Amazon Assocaite Tag here"
 ```	 
 # Credentials for Gmail acct and destination
 USERNAME = "gmail address for example jesseneal@gmail.com"
-PASSWORD = "gmail app password goes here" # example: ilovekitens
+PASSWORD = "gmail app password goes here" # example: ilovekittens
 SMS = "enternumberhere.att.net" # exaample 5555555555.att.net
 ```
 
