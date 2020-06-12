@@ -38,4 +38,7 @@ def product(asin):
 # Calling the product function and passing in the amazon ASIN product key
 product_price, product_title = product('B01F2R9WV8')
 ```
-
+Run
+```
+python3 amazonapi.py
+```
